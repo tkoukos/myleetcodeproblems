@@ -1,0 +1,5 @@
+#Compiled code
+*.pyc
+
+#Virtual Environment
+.venv
