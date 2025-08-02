@@ -12,11 +12,12 @@ from typing import List
 #                         p += 1
 #         return p
 
+
 class Solution:
     def countPairs(self, nums: List[int], k: int) -> int:
         n, p = len(nums), 0
         for i in range(n):
-            for j in range(i+1, n):
-                if nums[i] == nums[j] and i < j and (i*j)%k == 0: 
+            for j in range(i + 1, n):
+                if nums[i] == nums[j] and i < j and (i * j) % k == 0:
                     p += 1
-        return p      
+        return p

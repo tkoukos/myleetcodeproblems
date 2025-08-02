@@ -5,6 +5,7 @@
 #             nums[i] = nums[i] + nums[i - 1]
 #         return nums
 
+
 class Solution:
     def runningSum(self, nums: list[int]) -> list[int]:
         g = []
