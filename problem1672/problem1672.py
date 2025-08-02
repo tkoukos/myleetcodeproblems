@@ -9,6 +9,7 @@
 #                 max_s = s
 #         return max_s
 
+
 class Solution:
     def maximumWealth(self, accounts: list[list[int]]) -> int:
         max_s = 0

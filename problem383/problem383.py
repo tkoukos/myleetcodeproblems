@@ -12,13 +12,14 @@
 #                 return False
 #             else:
 #                 cntr_magazine[c] -= 1
-        
+
 #         return True
 
 from collections import Counter
 
+
 class Solution:
-    def Ransom_Note(self, ransomNote: str, magazine: str) -> bool:    
+    def Ransom_Note(self, ransomNote: str, magazine: str) -> bool:
         cntr_magazine = Counter(magazine)
         for c in ransomNote:
             if not cntr_magazine[c]:
