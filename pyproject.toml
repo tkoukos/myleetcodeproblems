@@ -8,3 +8,7 @@ dependencies = [
     "ruff>=0.12.4",
     "typing>=3.10.0.0",
 ]
+
+[tool.ruff]
+indent-width = 2
+line-length = 80
